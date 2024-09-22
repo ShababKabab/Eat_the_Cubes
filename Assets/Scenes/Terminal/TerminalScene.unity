@@ -290,8 +290,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 282, y: 184}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 277, y: 198}
+  m_SizeDelta: {x: 195.0915, y: 49.8186}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &58133251
 MonoBehaviour:
@@ -541,8 +541,8 @@ MonoBehaviour:
   cubePrefab: {fileID: 6156406013318569563, guid: 83f229f449f5346829a0ed4f658eb123, type: 3}
   materials:
   - {fileID: 2100000, guid: d5041a8bb16381be3b8841e9f983dbaf, type: 2}
-  numberOfCubes: 200
-  planeSize: 280
+  numberOfCubes: 210
+  planeSize: 285
   moveSpeed: 4
   directionChangeInterval: 2
   maxScale: 5
@@ -2135,8 +2135,8 @@ Camera:
   m_GameObject: {fileID: 1773927169}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.20465316, g: 0.19215688, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

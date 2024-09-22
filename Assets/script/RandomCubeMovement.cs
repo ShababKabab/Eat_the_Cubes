@@ -7,8 +7,8 @@ public class RandomCubeMovement : MonoBehaviour
     public GameObject playerCube;  // Reference to the player's cube
     public GameObject cubePrefab;  // Drag the cube prefab here
     public Material[] materials;   // Array of materials to assign to cubes
-    public int numberOfCubes = 20;  // Number of cubes to spawn
-    public float planeSize = 50f;  // Size of the plane to spawn cubes on
+    public int numberOfCubes = 300;  // Number of cubes to spawn
+    public float planeSize = 285f;  // Size of the plane to spawn cubes on
     public float moveSpeed = 3f;   // Speed at which the cubes move
     public float directionChangeInterval = 2f;  // Time interval for changing direction
     public float maxScale = 5f;   // Maximum scale size for the cubes
@@ -53,7 +53,7 @@ public class RandomCubeMovement : MonoBehaviour
         float randomValue = Random.value;
 
         // More likely to get values between 1 and 2
-        if (randomValue < 0.70f)  // 70% chance to scale between 1 and 2
+        if (randomValue < 0.65f)  // 70% chance to scale between 1 and 2
         {
             return Random.Range(1f, 2f);
         }
